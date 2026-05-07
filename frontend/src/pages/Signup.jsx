@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://team-task-manager-production-d6e6.up.railway.app";
 
 export default function Signup() {
   const [name, setName] = useState("");
